@@ -1,2 +1,2 @@
 # My-resume-
-My resume  Description 
+My resume is Description 
