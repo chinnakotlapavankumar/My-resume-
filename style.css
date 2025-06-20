@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #8cd6d6;
+  color: #ede7e7;
+}
+.background-image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-attachment: fixed;
+} 
+
+.hider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #0d37c3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(143, 143, 143);
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(38, 43, 41);
+  display: flex;
+}
+.logo>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-self: start;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #020101;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #121c1f;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  
+}
+
+.hero hi {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.movie-card {
+  background: #121717;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+}
+
+.movie-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+.movie-card h3{
+  margin: o.5rem 0;;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.movie-card h3{
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.movie-card h3 {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.movie-card h3 {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0b0909;
+  font-size: 0.9rem;
+  color: #777;
+}
+.picture{
+  width:1px;
+  height:1px;
+  position: absolute;
+
+}
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-attachment: scroll;
+
+}
